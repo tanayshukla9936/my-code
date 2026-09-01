@@ -3,6 +3,11 @@ using namespace std;
 int main(){
 
 int a,b;
+
+
+// sum,difference,product,division,modulo:
+
+
 //cout<<"enter the value of a"<<"\n";
 //cin>>a;
 //cout<<"enter the value of b"<<"\n";
