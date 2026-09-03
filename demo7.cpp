@@ -20,4 +20,4 @@ cout<<"the address of b is"<<c<<"\n";
 cout<<"the value at address c is"<<*c<<"\n";
     return 0;
 }
-//code with harry lec12
+//code by tanay12

@@ -39,10 +39,10 @@ int main(){
 enum meal{breakfast,dinner,lunch};  //enum ka use jb kisi variable ko fixed option or choice dena ho to use krte hai 
 meal m1 = breakfast;
 cout<<m1<<"\n";
-meal m2 = lunch;
+meal m2 = lunch; 
 cout<<m2<<"\n";
-meal m3 = dinner;
-cout<<m3<<"\n";
+meal m3 = dinner; 
+cout<<m3<<"\n"; 
 // cout<<breakfast<<endl;  
 // cout<<dinner<<endl;      
 // cout<<lunch<<endl;   
@@ -81,3 +81,4 @@ cout<<m3<<"\n";
 
     return 0;
 }
+//code by tanay14

@@ -111,4 +111,4 @@ there are 3 types of loop in c++
 
 return 0;
 }
-// code woth harry lec10
+// code by tanay10
