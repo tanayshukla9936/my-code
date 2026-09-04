@@ -2,7 +2,7 @@
  using namespace std;
  int main(){
 
-//cout<<"this is demo4";
+
 int age;
 cout<<"tell me your age"<<"\n";
 cin>>age;
