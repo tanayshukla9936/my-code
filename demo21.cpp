@@ -19,12 +19,12 @@ public:
 class Complex
 {
     int a, b;
-    // individually declaring function as friend 
+    // individually declaring function as friend
     friend int Calculator::sumRealComplex(Complex o1, Complex o2);
-     friend int Calculator::sumCompComplex(Complex o1, Complex o2);
+    friend int Calculator::sumCompComplex(Complex o1, Complex o2);
 
-     // Alliter: Declaring the entire calculator class as friend
-     friend class Calculator;
+    // Alliter: Declaring the entire calculator class as friend
+    friend class Calculator;
 
 public:
     void setNumber(int n1, int n2)
@@ -38,7 +38,6 @@ public:
         cout << "your number is " << a << " + " << b << "i" << "\n";
     }
 };
-
 
 int Calculator::sumRealComplex(Complex o1, Complex o2)
 {
@@ -58,7 +57,7 @@ int main()
     Calculator calc;
     int res = calc.sumRealComplex(o1, o2);
     cout << "the sum of real part of o1 and o2 is " << res << "\n";
-     int resc = calc.sumCompComplex(o1, o2);
+    int resc = calc.sumCompComplex(o1, o2);
     cout << "the sum of Comp part of o1 and o2 is " << resc << "\n";
 
     return 0;
